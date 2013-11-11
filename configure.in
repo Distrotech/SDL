@@ -29,6 +29,8 @@ AC_SUBST(SDL_INTERFACE_AGE)
 AC_SUBST(SDL_BINARY_AGE)
 AC_SUBST(SDL_VERSION)
 
+AC_CONFIG_MACRO_DIR([acinclude])
+
 # libtool versioning
 LT_INIT([win32-dll])
 
